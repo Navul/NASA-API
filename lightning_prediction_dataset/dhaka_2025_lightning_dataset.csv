@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d9e2c130b0d01678902c0eea8e225f3ea489208107cd44c2cd94cae269d6c38
-size 3488765
-=======
 DateTime,Date,Time,Location,Latitude,Longitude,Temperature_C,Humidity_%,Wind_Speed_m/s,Precipitation_mm,Pressure_kPa,Month,Hour,Minute,Lightning_Occurred,Lightning_Probability,Flash_Count,Flash_Density_per_km2,Expected_Flashes,Base_Flash_Rate,Time_Factor,Weather_Factor,Season,Time_Category,Month_Sin,Month_Cos,Hour_Sin,Hour_Cos,Temp_Deviation,Has_Precipitation,High_Humidity,Strong_Wind
 2025-01-01 00:00,2025-01-01,00:00,Dhaka,23.8103,90.4125,13.27,97.63,1.69,0.0,,1,0,0,0,0.0135,0,0.0,0.0271,1.5,0.2,1.3,Winter,Night,0.49999999999999994,0.8660254037844387,0.0,1.0,-3.350833333333334,0,1,0
 2025-01-01 00:30,2025-01-01,00:30,Dhaka,23.8103,90.4125,13.27,97.63,1.69,0.0,,1,0,30,0,0.0135,0,0.0,0.0271,1.5,0.2,1.3,Winter,Night,0.49999999999999994,0.8660254037844387,0.0,1.0,-3.350833333333334,0,1,0
@@ -14788,4 +14783,3 @@ DateTime,Date,Time,Location,Latitude,Longitude,Temperature_C,Humidity_%,Wind_Spe
 2025-11-04 22:30,2025-11-04,22:30,Dhaka,23.8103,90.4125,-999.0,-999.0,-999.0,-999.0,,11,22,30,0,0.0694,0,0.0,0.1389,2.0,1.0,1.0,Post-Monsoon,Evening,-0.5000000000000004,0.8660254037844384,-0.5000000000000004,0.8660254037844384,0.0,0,0,0
 2025-11-04 23:00,2025-11-04,23:00,Dhaka,23.8103,90.4125,-999.0,-999.0,-999.0,-999.0,,11,23,0,0,0.0694,0,0.0,0.1389,2.0,1.0,1.0,Post-Monsoon,Evening,-0.5000000000000004,0.8660254037844384,-0.25881904510252157,0.9659258262890681,0.0,0,0,0
 2025-11-04 23:30,2025-11-04,23:30,Dhaka,23.8103,90.4125,-999.0,-999.0,-999.0,-999.0,,11,23,30,0,0.0694,0,0.0,0.1389,2.0,1.0,1.0,Post-Monsoon,Evening,-0.5000000000000004,0.8660254037844384,-0.25881904510252157,0.9659258262890681,0.0,0,0,0
->>>>>>> ccd8fa1aff9eddcc0521e177fc5a4227abfad615
