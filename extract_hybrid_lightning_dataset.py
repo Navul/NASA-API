@@ -51,10 +51,15 @@ class HybridLightningDatasetExtractor:
         
         print(f"✅ Output directory: {self.output_dir}")
         
-        # Bangladesh locations
+        # Bangladesh - Top 7 Lightning-Prone Districts
+        # Already extracted: Dhaka, Chittagong
+        # New extractions: Sylhet, Mymensingh, Khulna, Rajshahi, Rangpur
         self.locations = {
-            'Dhaka': {'lat': 23.8103, 'lon': 90.4125},
-            'Chittagong': {'lat': 22.3569, 'lon': 91.7832}
+            'Sylhet': {'lat': 24.8949, 'lon': 91.8687},          # Northeastern, wetlands, highest rainfall
+            'Mymensingh': {'lat': 24.7471, 'lon': 90.4203},      # North-central, agricultural
+            'Khulna': {'lat': 22.8456, 'lon': 89.5403},          # Southwest, coastal, Sundarbans
+            'Rajshahi': {'lat': 24.3745, 'lon': 88.6042},        # Northwest, drier region
+            'Rangpur': {'lat': 25.7439, 'lon': 89.2752}          # Northern, agricultural
         }
         
         # Lightning climatology (monthly flash rates for Bangladesh)
@@ -530,14 +535,22 @@ def main():
     print("   Resolution: 30-minute intervals")
     print("=" * 80)
     
-    print("\n📍 Locations:")
-    print("   • Dhaka (23.8103°N, 90.4125°E)")
-    print("   • Chittagong (22.3569°N, 91.7832°E)")
+    print("\n📍 Locations (Top 7 Lightning-Prone Districts):")
+    print("   ✅ Already extracted:")
+    print("      • Dhaka (23.81°N, 90.41°E) - Central, urban")
+    print("      • Chittagong (22.36°N, 91.78°E) - Coastal, hilly")
+    print("\n   🆕 Extracting now:")
+    print("      • Sylhet (24.89°N, 91.87°E) - Wetlands, highest rainfall")
+    print("      • Mymensingh (24.75°N, 90.42°E) - North-central, agricultural")
+    print("      • Khulna (22.85°N, 89.54°E) - Southwest coast, Sundarbans")
+    print("      • Rajshahi (24.37°N, 88.60°E) - Northwest, drier (contrast)")
+    print("      • Rangpur (25.74°N, 89.28°E) - Northern, agricultural")
     
     print("\n📊 Expected Output:")
-    print("   • 12 CSV files (2 locations × 6 years)")
+    print("   • 30 CSV files (5 new locations × 6 years)")
     print("   • ~17,520 records per location per full year")
-    print("   • ~190,000+ total records")
+    print("   • ~512,400 total NEW records")
+    print("   • Combined with existing: ~717,360 total records")
     
     print("\n🚀 Starting extraction...\n")
     
