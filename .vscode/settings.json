@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"import numpy as np; data = np\\.load\\('dataset/2023/08/20/20230820_0600\\.npy'\\); print\\(f'Shape: \\{data\\.shape\\}'\\); print\\(f'Data type: \\{data\\.dtype\\}'\\); print\\(f'Min: \\{np\\.min\\(data\\)\\}'\\); print\\(f'Max: \\{np\\.max\\(data\\)\\}'\\); print\\(f'Mean: \\{np\\.mean\\(data\\)\\}'\\); print\\(f'Non-zero elements: \\{np\\.count_nonzero\\(data\\)\\}'\\); print\\(f'NaN count: \\{np\\.sum\\(np\\.isnan\\(data\\)\\)\\}'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python -c \"from satpy import available_readers; readers = available_readers\\(\\); print\\('Available readers:', len\\(readers\\)\\); print\\('\\\\nChecking for ahi_hsd\\.\\.\\.'\\); print\\('ahi_hsd available:', 'ahi_hsd' in readers\\); print\\('\\\\nAll AHI-related readers:'\\); \\[print\\(f'  - \\{r\\}'\\) for r in readers if 'ahi' in r\\.lower\\(\\) or 'himawari' in r\\.lower\\(\\)\\]; print\\('\\\\nFirst 20 readers:'\\); \\[print\\(f'  - \\{r\\}'\\) for r in sorted\\(readers\\)\\[:20\\]\\]\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^python extract_himawari_pipeline\\.py 2>&1 \\| Select-Object -First 100$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
