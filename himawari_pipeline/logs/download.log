@@ -1,0 +1,23 @@
+2026-01-26 13:27:03,944 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-26 13:27:03,944 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-26 13:28:05,732 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-26 13:28:05,732 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-26 13:29:03,727 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/0430/HS_H09_20230101_0430_B10_FLDK_R20_S0410.DAT.bz2 - Compressed file ended before the end-of-stream marker was reached
+2026-01-26 13:29:56,667 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/0700/HS_H09_20230101_0700_B08_FLDK_R20_S0410.DAT.bz2 - [WinError 32] The process cannot access the file because it is being used by another process: 'd:\\Study mat\\THESIS\\NASA API\\himawari_pipeline\\cache\\20230101_0700_B08.bz2'
+2026-01-26 13:31:39,129 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/1100/HS_H09_20230101_1100_B13_FLDK_R20_S0410.DAT.bz2 - Invalid data stream
+2026-01-26 13:32:07,537 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/1230/HS_H09_20230101_1230_B08_FLDK_R20_S0410.DAT.bz2 - Invalid data stream
+2026-01-26 13:34:25,707 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/1730/HS_H09_20230101_1730_B13_FLDK_R20_S0410.DAT.bz2 - Compressed file ended before the end-of-stream marker was reached
+2026-01-26 13:34:29,662 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/1800/HS_H09_20230101_1800_B08_FLDK_R20_S0410.DAT.bz2 - Compressed file ended before the end-of-stream marker was reached
+2026-01-26 13:35:28,469 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/2030/HS_H09_20230101_2030_B08_FLDK_R20_S0410.DAT.bz2 - [WinError 32] The process cannot access the file because it is being used by another process: 'd:\\Study mat\\THESIS\\NASA API\\himawari_pipeline\\cache\\20230101_2030_B08.bz2'
+2026-01-26 13:36:24,996 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/01/2300/HS_H09_20230101_2300_B08_FLDK_R20_S0410.DAT.bz2 - Invalid data stream
+2026-01-26 13:37:50,153 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/02/0200/HS_H09_20230102_0200_B08_FLDK_R20_S0410.DAT.bz2
+2026-01-26 13:37:51,602 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/02/0200/HS_H09_20230102_0200_B10_FLDK_R20_S0410.DAT.bz2
+2026-01-26 13:37:53,077 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/02/0200/HS_H09_20230102_0200_B13_FLDK_R20_S0410.DAT.bz2
+2026-01-26 16:17:10,245 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/16/0230/HS_H09_20230116_0230_B08_FLDK_R20_S0410.DAT.bz2
+2026-01-26 16:17:11,683 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/16/0230/HS_H09_20230116_0230_B10_FLDK_R20_S0410.DAT.bz2
+2026-01-26 16:17:13,112 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/16/0230/HS_H09_20230116_0230_B13_FLDK_R20_S0410.DAT.bz2
+2026-01-26 17:45:30,608 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/22/2100/HS_H09_20230122_2100_B08_FLDK_R20_S0410.DAT.bz2
+2026-01-26 17:45:32,005 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/22/2100/HS_H09_20230122_2100_B10_FLDK_R20_S0410.DAT.bz2
+2026-01-26 17:45:33,403 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/22/2100/HS_H09_20230122_2100_B13_FLDK_R20_S0410.DAT.bz2
+2026-01-26 20:51:06,262 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-26 20:51:06,305 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
