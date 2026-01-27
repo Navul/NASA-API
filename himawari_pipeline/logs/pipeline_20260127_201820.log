@@ -1,0 +1,38 @@
+2026-01-27 20:18:20,519 - himawari_pipeline - INFO - Initializing Himawari-8 Pipeline
+2026-01-27 20:18:20,519 - himawari_pipeline - INFO - Year-specific mode: 2023
+2026-01-27 20:18:20,519 - himawari_pipeline - INFO - 
+================================================================
+         Himawari-8 Pipeline Configuration Summary
+================================================================
+Geographic Region:
+  Latitude:  20.0°N to 27.0°N
+  Longitude: 88.0°E to 93.0°E
+  Output:    64x64 grid (~0.05° resolution)
+----------------------------------------------------------------
+Temporal Settings:
+  Period:    2023-01-01 to 2025-12-31
+  Interval:  30 minutes
+----------------------------------------------------------------
+Bands:
+  B08 (6.2 um)  - Upper-level water vapor
+  B10 (7.3 um)  - Mid-level water vapor
+  B13 (10.4 um) - Cloud-top temperature
+----------------------------------------------------------------
+Processing:
+  Aggregation: min
+  Interpolation: bilinear
+----------------------------------------------------------------
+Storage:
+  Format:    npz
+  Directory: d:\Study mat\THESIS\NASA API\himawari_pipeline
+================================================================
+
+2026-01-27 20:18:20,644 - himawari_pipeline - INFO - Processing period: 2023-01-01 to 2023-12-31
+2026-01-27 20:18:20,694 - himawari_pipeline - INFO - Total timestamps to process: 17520
+2026-01-27 20:18:20,874 - himawari_pipeline - INFO - Pending timestamps: 16272 (1248 already done)
+2026-01-27 20:24:55,044 - himawari_pipeline - INFO - Progress: 48/16272 (28 successful, 0 failed)
+2026-01-27 20:35:26,442 - himawari_pipeline - INFO - Progress: 96/16272 (76 successful, 0 failed)
+2026-01-27 20:46:54,007 - himawari_pipeline - INFO - Progress: 144/16272 (124 successful, 0 failed)
+2026-01-27 21:30:20,135 - himawari_pipeline - INFO - Progress: 192/16272 (172 successful, 0 failed)
+2026-01-27 21:58:23,220 - himawari_pipeline - INFO - Progress: 240/16272 (220 successful, 0 failed)
+2026-01-27 22:10:14,174 - himawari_pipeline - INFO - Progress: 288/16272 (268 successful, 0 failed)

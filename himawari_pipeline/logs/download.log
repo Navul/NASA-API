@@ -21,3 +21,8 @@
 2026-01-26 17:45:33,403 - himawari_downloader - WARNING - HTTP 404 for https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/22/2100/HS_H09_20230122_2100_B13_FLDK_R20_S0410.DAT.bz2
 2026-01-26 20:51:06,262 - himawari_downloader - INFO - Using SIMULATED data source for testing
 2026-01-26 20:51:06,305 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-27 20:18:20,566 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-27 20:18:20,589 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-27 21:25:01,513 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/30/2230/HS_H09_20230130_2230_B13_FLDK_R20_S0410.DAT.bz2 - HTTPSConnectionPool(host='noaa-himawari9.s3.amazonaws.com', port=443): Read timed out.
+2026-01-27 22:16:32,643 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-27 22:16:32,644 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
