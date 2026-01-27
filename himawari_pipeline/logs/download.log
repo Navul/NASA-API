@@ -26,3 +26,9 @@
 2026-01-27 21:25:01,513 - himawari_downloader - ERROR - Download failed: https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2023/01/30/2230/HS_H09_20230130_2230_B13_FLDK_R20_S0410.DAT.bz2 - HTTPSConnectionPool(host='noaa-himawari9.s3.amazonaws.com', port=443): Read timed out.
 2026-01-27 22:16:32,643 - himawari_downloader - INFO - Using SIMULATED data source for testing
 2026-01-27 22:16:32,644 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-27 22:21:41,047 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-27 22:21:41,110 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-27 22:30:37,055 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-27 22:30:37,055 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
+2026-01-27 22:31:56,603 - himawari_downloader - INFO - Using SIMULATED data source for testing
+2026-01-27 22:31:56,604 - himawari_downloader - INFO - Initialized HimawariDownloader with 2 sources
